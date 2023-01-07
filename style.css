@@ -84,7 +84,7 @@ body{
    background: var(--red);
 }
 
-main .home{
+.home{
    width: 100%;
    height: 100vh;
    display: flex;
@@ -178,11 +178,11 @@ main .home{
       flex-direction: column;
       text-align: center;
       overflow: hidden;
-      gap: 3rem;
+      gap: 5rem;
    }
 
    .home .text-h4{
-      font-size: 15px;
+      font-size: 1.2rem;
    }
 
    .home .text-h1{
@@ -192,9 +192,37 @@ main .home{
 
    .home p{
       font-size: 15px;
+      margin-bottom: 2rem;
+   }
+
+   .home-btn{
+      margin-bottom: ;
    }
 
    .home-img{
-      width: 125%;
+      width: 100%;
+   }
+}
+
+@media (max-width:375px){
+   .navigation i{
+      display: none;
+   }
+
+   .home-text .text-h1{
+      font-size: 2rem;
+      line-height: 2.5rem;
+   }
+
+
+   .home-btn{
+      font-weight: 500;
+       padding: 10px 30px;
+   }
+
+
+
+   .home-img img{
+      width: 80%;
    }
 }
