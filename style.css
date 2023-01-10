@@ -121,7 +121,7 @@ body{
    font-weight: 700;
    color: var(--white);
    background-color: var(--red);
-   padding: 15px 45px;
+   padding: 0.8rem 2.4rem;
    border-radius: 10px;
    transition: all 0.5s;
 }
@@ -195,9 +195,6 @@ body{
       margin-bottom: 2rem;
    }
 
-   .home-btn{
-      margin-bottom: ;
-   }
 
    .home-img{
       width: 100%;
